@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_code_igniter" kind="namespace" language="PHP">
+    <compoundname>CodeIgniter</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="namespace_code_igniter" kindref="compound">CodeIgniter</ref></para><para>An open source application development framework for PHP</para><para>This content is released under the MIT License (MIT)</para><para>Copyright (c) 2014 - 2019, British Columbia Institute of Technology</para><para>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</para><para>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</para><para>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</para><para><simplesect kind="author"><para>EllisLab Dev Team </para></simplesect>
+<simplesect kind="copyright"><para>Copyright (c) 2008 - 2014, EllisLab, Inc. (<ulink url="https://ellislab.com/">https://ellislab.com/</ulink>) </para></simplesect>
+<simplesect kind="copyright"><para>Copyright (c) 2014 - 2019, British Columbia Institute of Technology (<ulink url="https://bcit.ca/">https://bcit.ca/</ulink>)  <ulink url="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</ulink> MIT License <ref refid="" kindref="compound">Version 1.0.0  </ref></para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/wamp/www/ci/index.php" line="29" column="1"/>
+  </compounddef>
+</doxygen>

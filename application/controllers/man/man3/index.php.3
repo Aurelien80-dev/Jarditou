@@ -1,0 +1,89 @@
+.TH "C:/wamp/www/ci/index.php" 3 "Mardi 6 Août 2019" "Jarditou" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/wamp/www/ci/index.php
+.SH SYNOPSIS
+.br
+.PP
+.SS "Espaces de nommage"
+
+.in +1c
+.ti -1c
+.RI " \fBCodeIgniter\fP"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$application_folder\fP = 'application'"
+.br
+.ti -1c
+.RI "switch(\fBENVIRONMENT\fP) \fB$system_path\fP = 'system'"
+.br
+.ti -1c
+.RI "\fB$view_folder\fP = ''"
+.br
+.ti -1c
+.RI "const \fBAPPPATH\fP $application_folder\&.DIRECTORY_SEPARATOR"
+.br
+.ti -1c
+.RI "const \fBBASEPATH\fP $system_path"
+.br
+.ti -1c
+.RI "if(defined('STDIN')) if(($_temp=realpath($system_path)) !==FALSE) \fBelse\fP"
+.br
+.ti -1c
+.RI "const \fBENVIRONMENT\fP isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development'"
+.br
+.ti -1c
+.RI "const \fBFCPATH\fP dirname(__FILE__)\&.DIRECTORY_SEPARATOR"
+.br
+.ti -1c
+.RI "const \fBSELF\fP (! is_dir($system_path)) pathinfo(__FILE__, PATHINFO_BASENAME)"
+.br
+.ti -1c
+.RI "const \fBSYSDIR\fP basename(\fBBASEPATH\fP)"
+.br
+.ti -1c
+.RI "const \fBVIEWPATH\fP $view_folder\&.DIRECTORY_SEPARATOR"
+.br
+.in -1c
+.SH "Documentation des variables"
+.PP 
+.SS "$application_folder = 'application'"
+
+.SS "switch (\fBENVIRONMENT\fP) $system_path = 'system'"
+
+.SS "$view_folder = ''"
+
+.SS "const APPPATH $application_folder\&.DIRECTORY_SEPARATOR"
+
+.SS "const BASEPATH $system_path"
+
+.SS "if (! isset( $view_folder[0]) &&is_dir(APPPATH\&. 'views'\&.DIRECTORY_SEPARATOR)) elseif (is_dir( $view_folder)) elseif (is_dir(APPPATH\&. $view_folder\&.DIRECTORY_SEPARATOR)) else"
+\fBValeur initiale :\fP
+.PP
+.nf
+{
+        
+        $system_path = strtr(
+            rtrim($system_path, '/\\'),
+            '/\\',
+            DIRECTORY_SEPARATOR\&.DIRECTORY_SEPARATOR
+        )\&.DIRECTORY_SEPARATOR
+.fi
+.SS "const ENVIRONMENT isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development'"
+
+.SS "const FCPATH dirname(__FILE__)\&.DIRECTORY_SEPARATOR"
+
+.SS "const SELF(! is_dir( $system_path)) pathinfo(__FILE__, PATHINFO_BASENAME)"
+
+.SS "const SYSDIR basename(\fBBASEPATH\fP)"
+
+.SS "const VIEWPATH $view_folder\&.DIRECTORY_SEPARATOR"
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Jarditou à partir du code source\&.

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="namespace_code_igniter" kind="namespace"><name>CodeIgniter</name>
+  </compound>
+  <compound refid="index_8php" kind="file"><name>index.php</name>
+    <member refid="index_8php_1a8757a57d09df5349f8b93b2083e29a1e" kind="variable"><name>ENVIRONMENT</name></member>
+    <member refid="index_8php_1af832b0c9a5014f0bb87496701ceb30e5" kind="variable"><name>$system_path</name></member>
+    <member refid="index_8php_1ace4309eda0b92e3260b226079bc17909" kind="variable"><name>$application_folder</name></member>
+    <member refid="index_8php_1a974fdae9fe36c7e07e82bb71ed42b6b3" kind="variable"><name>$view_folder</name></member>
+    <member refid="index_8php_1ad6d2150d853feb0a6cb32263b584e456" kind="variable"><name>else</name></member>
+    <member refid="index_8php_1a6f163f65a35aa02c02a5ff21337053d8" kind="variable"><name>SELF</name></member>
+    <member refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" kind="variable"><name>BASEPATH</name></member>
+    <member refid="index_8php_1ae486546e58b2603595efedf9f95b3926" kind="variable"><name>FCPATH</name></member>
+    <member refid="index_8php_1ab645ae0961792b1f2b4b83f89cb95fa5" kind="variable"><name>SYSDIR</name></member>
+    <member refid="index_8php_1a644e58bbe10b41e25c0768345587f4aa" kind="variable"><name>APPPATH</name></member>
+    <member refid="index_8php_1ade8921d52af58583e5727833459224c3" kind="variable"><name>VIEWPATH</name></member>
+  </compound>
+</doxygenindex>
